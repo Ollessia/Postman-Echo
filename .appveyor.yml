@@ -5,7 +5,7 @@ branches:
     - main
 build: off
 install:
-  - https://postman-echo.com
+
   - chmod +x gradlew
 build_script:
   - ./gradlew test --info
